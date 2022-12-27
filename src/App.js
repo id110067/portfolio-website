@@ -40,7 +40,7 @@ function App() {
               <Route path="/contact" element={<Contact />} />
             </Routes>
           </Router>
-          <Col className="col-2">Right</Col>
+          <Col className="col-2"></Col>
         </Row>
       </Container>
     </div>

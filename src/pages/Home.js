@@ -5,6 +5,7 @@ import SocialMediaBar from "../components/SocialMediaBar";
 import BackgroundGif from "../assets/background-gif.gif";
 import $ from "jquery";
 import { Link } from "react-router-dom";
+import { TypeAnimation } from "react-type-animation";
 
 function Home() {
   var TEXTS = ["iOS", "Android", "Full Stack"];
@@ -22,9 +23,18 @@ function Home() {
 
   return (
     <>
-      <Col className="col-8" style={{ color: "white", paddingTop: "7%" }}>
-        <h1 style={{ fontSize: "3.5rem", marginBottom: "2%" }}>
-          Mohammad Abdur <span style={{ color: "#FD8A8A" }}>Rahman</span>
+      <Col className="col-8" style={{ color: "white", paddingTop: "3%" }}>
+        <h1 style={{ fontSize: "3rem", marginBottom: "2%" }}>
+          {/* Mohammad Abdur <span style={{ color: "#FD8A8A" }}>Rahman</span> */}
+          <TypeAnimation
+            sequence={["Mohammad", 1000, "Mohammad Abdur", 1000]}
+            wrapper="div"
+          />
+          <TypeAnimation
+            sequence={[3000, "Rahman", 1000]}
+            wrapper="div"
+            style={{ color: "#FD8A8A" }}
+          />
         </h1>
         <h3 style={{ marginBottom: "3%" }}>
           <span id="header-text-change" style={{ color: "#FD8A8A" }}>
@@ -32,7 +42,7 @@ function Home() {
           </span>{" "}
           Developer
         </h3>
-        <Link to='/contact'>
+        <Link to="/contact">
           {" "}
           <Button
             style={{
