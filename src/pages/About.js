@@ -49,16 +49,21 @@ function About() {
             ideas to solve problems.
           </span>{" "}
         </h6>
-        <Button
-          style={{
-            backgroundColor: "#FD8A8A",
-            borderColor: "#FD8A8A",
-            paddingTop: "1%",
-            paddingBottom: "1%",
-          }}
+        <a
+          href="https://www.icloud.com/iclouddrive/0408Eo22kbyC6bo6MncL2Hprg#Resume-MohammadAbdurRahman5"
+          target="_blank"
         >
-          <b>Download Resume</b>
-        </Button>
+          <Button
+            style={{
+              backgroundColor: "#FD8A8A",
+              borderColor: "#FD8A8A",
+              paddingTop: "1%",
+              paddingBottom: "1%",
+            }}
+          >
+            <b>Download Resume</b>
+          </Button>
+        </a>
       </Col>
     </>
   );
