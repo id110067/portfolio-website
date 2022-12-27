@@ -1,0 +1,299 @@
+.btn-java {
+  color: #fd841f !important;
+  border-color: #fd841f !important;
+}
+
+.btn-java:hover,
+.btn-java:focus,
+.btn-java:active,
+.btn-java.active,
+.open > .dropdown-toggle.btn-java {
+  color: #fff !important;
+  background-color: #fd841f !important;
+  border-color: #fd841f !important; /*set the color you want here*/
+}
+
+.btn-c {
+  color: #009eff !important;
+  border-color: #009eff !important;
+}
+
+.btn-c:hover,
+.btn-c:focus,
+.btn-c:active,
+.btn-c.active,
+.open > .dropdown-toggle.btn-c {
+  color: #fff !important;
+  background-color: #009eff !important;
+  border-color: #009eff !important; /*set the color you want here*/
+}
+
+.btn-swift {
+  color: #ff6e4a !important;
+  border-color: #ff6e4a !important;
+}
+
+.btn-swift:hover,
+.btn-swift:focus,
+.btn-swift:active,
+.btn-swift.active,
+.open > .dropdown-toggle.btn-swift {
+  color: #fff !important;
+  background-color: #ff6e4a !important;
+  border-color: #ff6e4a !important; /*set the color you want here*/
+}
+
+.btn-kotlin {
+  color: #7f52ff !important;
+  border-color: #7f52ff !important;
+}
+
+.btn-kotlin:hover,
+.btn-kotlin:focus,
+.btn-kotlin:active,
+.btn-kotlin.active,
+.open > .dropdown-toggle.btn-kotlin {
+  color: #fff !important;
+  background-color: #7f52ff !important;
+  border-color: #7f52ff !important; /*set the color you want here*/
+}
+
+.btn-javascript {
+  color: #f7df1e !important;
+  border-color: #f7df1e !important;
+}
+
+.btn-javascript:hover,
+.btn-javascript:focus,
+.btn-javascript:active,
+.btn-javascript.active,
+.open > .dropdown-toggle.btn-javascript {
+  color: #000 !important;
+  background-color: #f7df1e !important;
+  border-color: #f7df1e !important; /*set the color you want here*/
+}
+
+.btn-html {
+  color: #e34c26 !important;
+  border-color: #e34c26 !important;
+}
+
+.btn-html:hover,
+.btn-html:focus,
+.btn-html:active,
+.btn-html.active,
+.open > .dropdown-toggle.btn-html {
+  color: #fff !important;
+  background-color: #e34c26 !important;
+  border-color: #e34c26 !important; /*set the color you want here*/
+}
+
+.btn-css {
+  color: #1572b6 !important;
+  border-color: #1572b6 !important;
+}
+
+.btn-css:hover,
+.btn-css:focus,
+.btn-css:active,
+.btn-css.active,
+.open > .dropdown-toggle.btn-css {
+  color: #fff !important;
+  background-color: #1572b6 !important;
+  border-color: #1572b6 !important; /*set the color you want here*/
+}
+
+.btn-react {
+  color: #61dafb !important;
+  border-color: #61dafb !important;
+}
+
+.btn-react:hover,
+.btn-react:focus,
+.btn-react:active,
+.btn-react.active,
+.open > .dropdown-toggle.btn-react {
+  color: #000 !important;
+  background-color: #61dafb !important;
+  border-color: #61dafb !important; /*set the color you want here*/
+}
+
+.btn-node {
+  color: #339933 !important;
+  border-color: #339933 !important;
+}
+
+.btn-node:hover,
+.btn-node:focus,
+.btn-node:active,
+.btn-node.active,
+.open > .dropdown-toggle.btn-node {
+  color: #fff !important;
+  background-color: #339933 !important;
+  border-color: #339933 !important; /*set the color you want here*/
+}
+
+.btn-express {
+  color: #f7df1e !important;
+  border-color: #f7df1e !important;
+}
+
+.btn-express:hover,
+.btn-express:focus,
+.btn-express:active,
+.btn-express.active,
+.open > .dropdown-toggle.btn-express {
+  color: #000 !important;
+  background-color: #f7df1e !important;
+  border-color: #f7df1e !important; /*set the color you want here*/
+}
+
+.btn-mongodb {
+  color: #47a248 !important;
+  border-color: #47a248 !important;
+}
+
+.btn-mongodb:hover,
+.btn-mongodb:focus,
+.btn-mongodb:active,
+.btn-mongodb.active,
+.open > .dropdown-toggle.btn-mongodb {
+  color: #fff !important;
+  background-color: #47a248 !important;
+  border-color: #47a248 !important; /*set the color you want here*/
+}
+
+.btn-mysql {
+  color: #4479a1 !important;
+  border-color: #4479a1 !important;
+}
+
+.btn-mysql:hover,
+.btn-mysql:focus,
+.btn-mysql:active,
+.btn-mysql.active,
+.open > .dropdown-toggle.btn-mysql {
+  color: #fff !important;
+  background-color: #4479a1 !important;
+  border-color: #4479a1 !important; /*set the color you want here*/
+}
+
+.btn-firebase {
+  color: #ffca28 !important;
+  border-color: #ffca28 !important;
+}
+
+.btn-firebase:hover,
+.btn-firebase:focus,
+.btn-firebase:active,
+.btn-firebase.active,
+.open > .dropdown-toggle.btn-firebase {
+  color: #000 !important;
+  background-color: #ffca28 !important;
+  border-color: #ffca28 !important; /*set the color you want here*/
+}
+
+.btn-heroku {
+  color: #430098 !important;
+  border-color: #430098 !important;
+}
+
+.btn-heroku:hover,
+.btn-heroku:focus,
+.btn-heroku:active,
+.btn-heroku.active,
+.open > .dropdown-toggle.btn-heroku {
+  color: #fff !important;
+  background-color: #430098 !important;
+  border-color: #430098 !important; /*set the color you want here*/
+}
+
+.btn-react-native {
+  color: #61dafb !important;
+  border-color: #61dafb !important;
+}
+
+.btn-react-native:hover,
+.btn-react-native:focus,
+.btn-react-native:active,
+.btn-react-native.active,
+.open > .dropdown-toggle.btn-react-native {
+  color: #000 !important;
+  background-color: #61dafb !important;
+  border-color: #61dafb !important; /*set the color you want here*/
+}
+
+.btn-android {
+  color: #a4c639 !important;
+  border-color: #a4c639 !important;
+}
+
+.btn-android:hover,
+.btn-android:focus,
+.btn-android:active,
+.btn-android.active,
+.open > .dropdown-toggle.btn-android {
+  color: #000 !important;
+  background-color: #a4c639 !important;
+  border-color: #a4c639 !important; /*set the color you want here*/
+}
+
+.btn-ios {
+  color: #ff597b !important;
+  border-color: #ff597b !important;
+}
+
+.btn-ios:hover,
+.btn-ios:focus,
+.btn-ios:active,
+.btn-ios.active,
+.open > .dropdown-toggle.btn-ios {
+  color: #000 !important;
+  background-color: #ff597b !important;
+  border-color: #ff597b !important; /*set the color you want here*/
+}
+
+.btn-bootstrap {
+  color: #563d7c !important;
+  border-color: #563d7c !important;
+}
+
+.btn-bootstrap:hover,
+.btn-bootstrap:focus,
+.btn-bootstrap:active,
+.btn-bootstrap.active,
+.open > .dropdown-toggle.btn-bootstrap {
+  color: #fff !important;
+  background-color: #563d7c !important;
+  border-color: #563d7c !important; /*set the color you want here*/
+}
+
+.btn-redux {
+  color: #764abc !important;
+  border-color: #764abc !important;
+}
+
+.btn-redux:hover,
+.btn-redux:focus,
+.btn-redux:active,
+.btn-redux.active,
+.open > .dropdown-toggle.btn-redux {
+  color: #fff !important;
+  background-color: #764abc !important;
+  border-color: #764abc !important; /*set the color you want here*/
+}
+
+.btn-git {
+  color: #f05032 !important;
+  border-color: #f05032 !important;
+}
+
+.btn-git:hover,
+.btn-git:focus,
+.btn-git:active,
+.btn-git.active,
+.open > .dropdown-toggle.btn-git {
+  color: #fff !important;
+  background-color: #f05032 !important;
+  border-color: #f05032 !important; /*set the color you want here*/
+}
