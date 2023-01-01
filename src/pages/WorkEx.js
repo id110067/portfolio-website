@@ -44,7 +44,7 @@ function WorkEx() {
             rewindWithAnimation={true}
           >
             <Col className="px-3">
-              <Card>
+              <Card style={{backgroundColor: 'rgba(62, 62, 62, 0.8)', color: 'white'}}>
                 <Card.Body>
                   <Card.Title>
                     <img
@@ -59,14 +59,14 @@ function WorkEx() {
                     <h5>
                       <b>Student Research Assistant</b>
                     </h5>
-                    <h6>Dec 2022 - Present</h6>
+                    <h6 style={{color: '#FD8A8A'}}>Dec 2022 - Present</h6>
                   </Card.Title>
                 </Card.Body>
               </Card>
             </Col>
             <Col className="px-3">
               {" "}
-              <Card>
+              <Card style={{backgroundColor: 'rgba(62, 62, 62, 0.8)', color: 'white'}}>
                 <Card.Body>
                   <Card.Title>
                     <img
@@ -81,14 +81,14 @@ function WorkEx() {
                     <h5>
                       <b>Chairperson</b>
                     </h5>
-                    <h6>June 2022 - Present</h6>
+                    <h6 style={{color: '#FD8A8A'}}>June 2022 - Present</h6>
                   </Card.Title>
                 </Card.Body>
               </Card>
             </Col>
             <Col className="px-3">
               {" "}
-              <Card>
+              <Card style={{backgroundColor: 'rgba(62, 62, 62, 0.8)', color: 'white'}}>
                 <Card.Body>
                   <Card.Title>
                     <img
@@ -103,13 +103,13 @@ function WorkEx() {
                     <h5>
                       <b>Full Stack Developer</b>
                     </h5>
-                    <h6>June 2022 - August 2022</h6>
+                    <h6 style={{color: '#FD8A8A'}}>June 2022 - August 2022</h6>
                   </Card.Title>
                 </Card.Body>
               </Card>
             </Col>
           <Col className="px-3">
-            <Card style={{ height: "250px" }}>
+            <Card style={{ height: "250px", backgroundColor: 'rgba(62, 62, 62, 0.8)', color: 'white' }}>
               <Card.Body>
                 <Card.Title>
                   <img
@@ -125,14 +125,14 @@ function WorkEx() {
                   <h5>
                     <b>Student Teaching Assistant</b>
                   </h5>
-                  <h6>January 2022 - May 2022</h6>
+                  <h6 style={{color: '#FD8A8A'}}>January 2022 - May 2022</h6>
                 </Card.Title>
               </Card.Body>
             </Card>
           </Col>
           <Col className="px-3">
             {" "}
-            <Card>
+            <Card style={{backgroundColor: 'rgba(62, 62, 62, 0.8)', color: 'white'}}>
               <Card.Body>
                 <Card.Title>
                   <img
@@ -147,14 +147,14 @@ function WorkEx() {
                   <h5>
                     <b>Co-Founder</b>
                   </h5>
-                  <h6>September 2021 - May 2022</h6>
+                  <h6 style={{color: '#FD8A8A'}}>September 2021 - May 2022</h6>
                 </Card.Title>
               </Card.Body>
             </Card>
           </Col>
           <Col className="px-3">
             {" "}
-            <Card>
+            <Card style={{backgroundColor: 'rgba(62, 62, 62, 0.8)', color: 'white'}}>
               <Card.Body>
                 <Card.Title>
                   <img
@@ -169,7 +169,7 @@ function WorkEx() {
                   <h5>
                     <b>Level 4 Diploma, IBGM</b>
                   </h5>
-                  <h6>May 2022</h6>
+                  <h6 style={{color: '#FD8A8A'}}>May 2022</h6>
                 </Card.Title>
               </Card.Body>
             </Card>

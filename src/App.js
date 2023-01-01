@@ -18,7 +18,7 @@ import Contact from "./pages/Contact";
 function App() {
   return (
     <div className="App">
-      <Container fluid style={{ height: "100vh", backgroundColor: "black" }}>
+      <Container fluid style={{ height: "100vh" }}>
         <Row>
           <NavBar />
         </Row>
@@ -41,6 +41,27 @@ function App() {
             </Routes>
           </Router>
           <Col className="col-2"></Col>
+        </Row>
+        <Row
+          style={{
+            position: "fixed",
+            bottom: "0",
+            textAlign: "center",
+            width: "100%",
+          }}
+        >
+          <h5 style={{ fontSize: "12px", color: "#B2B2B2" }}>
+            &#169; 2023 | Developed by{" "}
+            <span style={{ color: "#FD8A8A" }}>Mohammad Abdur Rahman</span> |
+            Background Cover by{" "}
+            <a
+              href="https://unsplash.com/@heytowner"
+              style={{ textDecoration: "none" }}
+              target="_blank"
+            >
+              John Towner
+            </a>
+          </h5>
         </Row>
       </Container>
     </div>
