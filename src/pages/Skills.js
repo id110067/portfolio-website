@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Button, Row } from "react-bootstrap";
+import { Col, Button, Row, Card } from "react-bootstrap";
 import {
   FaPython,
   FaCuttlefish,
@@ -31,6 +31,8 @@ function Skills() {
   return (
     <>
       <Col className="col-8" style={{ color: "#B2B2B2" }}>
+      <Card style={{backgroundColor: 'rgba(62, 62, 62, 1)'}}>
+        <Card.Body>
         <Row style={{ marginBottom: "3%" }}>
           <Col className="col-6" style={{}}>
             <h3 style={{ marginBottom: "5%" }}>
@@ -195,6 +197,9 @@ function Skills() {
             </Button>{" "}
           </Col>
         </Row>
+
+          </Card.Body>
+      </Card>
       </Col>
     </>
   );
